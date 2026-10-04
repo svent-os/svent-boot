@@ -1,0 +1,3 @@
+grub.d/90_svent.cfg       etc/default/grub.d/
+etc-grub.d/06_svent_colors    etc/grub.d/
+live/grub-live.cfg        usr/share/svent/grub/

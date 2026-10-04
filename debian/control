@@ -1,0 +1,15 @@
+Source: svent-boot
+Section: admin
+Priority: optional
+Maintainer: z1rov <fabian@zirov.net>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.7.0
+Rules-Requires-Root: no
+
+Package: svent-boot
+Architecture: all
+Depends: grub2-common, ${misc:Depends}
+Description: Svent installed-system GRUB boot integration
+ Installs a managed /etc/default/grub.d drop-in that gives the installed
+ system a classic text GRUB menu in red on black. No theme or graphics
+ mode, so the kernel handoff stays reliable on bare metal and in VMs.
