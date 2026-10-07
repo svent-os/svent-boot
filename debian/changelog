@@ -1,3 +1,9 @@
+svent-boot (0.1.1) unstable; urgency=medium
+
+  * Brand the GRUB distributor and live menu entries as SventOS (one word).
+
+ -- z1rov <fabian@zirov.net>  Wed, 08 Oct 2026 01:30:00 -0500
+
 svent-boot (0.1.0) unstable; urgency=medium
 
   * Initial release.
